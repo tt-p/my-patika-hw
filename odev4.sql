@@ -22,10 +22,10 @@ select distinct replacement_cost from film;
 select count(distinct replacement_cost) from film; 
 
 -- S_3: 9
-select count(*) from film f where title like 'T%' and rating = 'G'; 
+select count(*) from film where title like 'T%' and rating = 'G'; 
 
 -- S_4: 13
-select count(*) from country c where country like '_____';
+select count(*) from country where country like '_____';
 
 --S_5: 33
 select count(*) from city where city ilike '%R';
